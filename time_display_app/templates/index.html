@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en"></html>
+<head>
+    <meta charset = "UTF-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    <div class="header">
+    <h1>The current time and date</h1>
+    </div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p>Name: <input type="text" name="name" id=""></p>
+        <p><input type="submit" value="Register"></p>
+    </form>
+    <div class="time">
+
+    <p>{{time}}</p>
+    </div>
+   
+</body>
+</html>

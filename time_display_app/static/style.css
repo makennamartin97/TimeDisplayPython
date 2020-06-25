@@ -1,0 +1,20 @@
+body {
+    background-color:#bccaff;
+    font-style: oblique;
+    color: pink;
+}
+.header{
+    background-color: white;
+    color: black;
+    border-width: 15px;
+    border-style: solid;
+    text-align: center;
+
+}
+.time{
+    border-style: solid;
+    border-width: 15px;
+    text-align: center;
+    font-size: 40px;
+
+}
